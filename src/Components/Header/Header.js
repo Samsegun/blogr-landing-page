@@ -3,7 +3,7 @@ import Hero from "./Hero";
 
 const Header = () => {
   return (
-    <header className="bg-cta-bg h-96">
+    <header className="bg-no-repeat rounded-bl-header h-header-height bg-mobile-bg bg-top-4 bg-cta-mobilenav-lightred font-ubuntu">
       <Navbar />
       <Hero />
     </header>

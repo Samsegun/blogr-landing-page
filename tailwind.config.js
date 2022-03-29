@@ -20,9 +20,20 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "mobile-bg": "url('./src/assets/bg-pattern-intro-mobile.svg')",
+        "mobile-bg": "url('./assets/bg-pattern-intro-mobile.svg')",
+        "to-tl":
+          "linear-gradient(to top left, rgba(255, 61, 84, 0.7) 50%, rgba(255, 143, 112, 0.7) 50%)",
         "desktop-bg": "url('./src/assets/bg-pattern-intro-desktop.svg')",
         "circles-bg": "url('./src/assets/bg-pattern-circles.svg')",
+      },
+      backgroundPosition: {
+        "top-4": "left -21rem bottom -32rem",
+      },
+      height: {
+        "header-height": "35rem",
+      },
+      borderRadius: {
+        header: "5.5rem",
       },
     },
   },
