@@ -1,6 +1,8 @@
 import Header from "./Components/Header/Header";
 import DesignFuture from "./Components/DesignforFuture/DesignforFuture";
 import StateofArt from "./Components/StateofArt/StateofArt";
+import FreeOpen from "./Components/FreeOpen/FreeOpen";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Header />
       <DesignFuture />
       <StateofArt />
+      <FreeOpen />
+      <Footer />
     </div>
   );
 }

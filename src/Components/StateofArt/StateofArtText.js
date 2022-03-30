@@ -1,7 +1,7 @@
 const StateofArtText = () => {
   return (
-    <article className="relative text-center text-white top-72">
-      <h2 className="text-4xl font-semibold font-ubuntu">
+    <article className="relative text-center text-white top-72 font-overpass">
+      <h2 className="text-4xl font-semibold">
         State of the Art Infrastructure
       </h2>
       <p className="px-10 mt-5">
