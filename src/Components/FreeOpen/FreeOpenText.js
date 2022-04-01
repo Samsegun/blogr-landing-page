@@ -1,6 +1,6 @@
 const FreeOpenText = () => {
   return (
-    <div className="mt-7 font-overpass text-body-copy">
+    <div className="mt-7 font-overpass text-body-copy sm:w-small-screen sm:m-small-screen">
       <article className="">
         <h2 className="mb-5 text-2xl font-black text-headings">
           Free, open, simple

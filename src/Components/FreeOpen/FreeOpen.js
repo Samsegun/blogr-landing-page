@@ -3,7 +3,7 @@ import FreeOpenText from "./FreeOpenText";
 
 const FreeOpen = () => {
   return (
-    <section className="text-center mb-9">
+    <section className="mb-20 text-center">
       <FreeOpenImage />
       <FreeOpenText />
     </section>

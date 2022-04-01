@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -18,17 +20,22 @@ module.exports = {
       overpass: ["Overpass", "sans-serif"],
       ubuntu: ["Ubuntu", "sans-serif"],
     },
+    screens: {
+      xs: "465px",
+      ms: "510px",
+      desktop: "929px",
+      ...defaultTheme.screens,
+    },
     extend: {
       backgroundImage: {
         "mobile-bg": "url('./assets/bg-pattern-intro-mobile.svg')",
-        "to-tl":
-          "linear-gradient(to top left, rgba(255, 61, 84, 0.7) 50%, rgba(255, 143, 112, 0.7) 50%)",
         "desktop-bg": "url('./assets/bg-pattern-intro-desktop.svg')",
         "circles-bg": "url('./assets/bg-pattern-circles.svg')",
+        "body-gradient": "linear-gradient(rgba(44, 45, 63, 0.9)100%)",
       },
       backgroundPosition: {
         "top-4": "left -21rem bottom -32rem",
-        StateofArt: "left -23rem bottom 9rem",
+        StateofArt: "left -23rem bottom 14rem",
       },
       height: {
         "header-height": "35rem",
@@ -36,6 +43,12 @@ module.exports = {
       },
       borderRadius: {
         header: "5.5rem",
+      },
+      width: {
+        "small-screen": "80%",
+      },
+      margin: {
+        "small-screen": "0 auto",
       },
     },
   },

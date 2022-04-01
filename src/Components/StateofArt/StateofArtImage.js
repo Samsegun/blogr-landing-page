@@ -1,7 +1,15 @@
 import phones from "../../assets/illustration-phones.svg";
 
 const StateofArtImage = () => {
-  return <img src={phones} alt="phones" className="absolute bottom-[22rem]" />;
+  return (
+    <div className="max-h-[450px] absolute -top-44 w-full">
+      <img
+        src={phones}
+        alt="phones"
+        className="mx-auto min-w-[250px] xs:max-w-[440px]"
+      />
+    </div>
+  );
 };
 
 export default StateofArtImage;
