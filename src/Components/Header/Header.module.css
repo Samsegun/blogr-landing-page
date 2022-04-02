@@ -1,0 +1,21 @@
+.header {
+  background: linear-gradient(
+      to top left,
+      rgba(255, 61, 84, 0.3) 20%,
+      rgba(255, 143, 112, 0.8) 80%
+    ),
+    url("../../assets/bg-pattern-intro-mobile.svg") right -38rem bottom -32rem,
+    #ff3d54 no-repeat;
+}
+
+@media (min-width: 929px) {
+  .header {
+    background: linear-gradient(
+        to top left,
+        rgba(255, 61, 84, 0.3) 20%,
+        rgba(255, 143, 112, 0.8) 80%
+      ),
+      url("../../assets/bg-pattern-intro-desktop.svg") right -82rem bottom -79rem,
+      #ff3d54 no-repeat;
+  }
+}

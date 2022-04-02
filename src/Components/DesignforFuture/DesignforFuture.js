@@ -8,7 +8,7 @@ const DesignFuture = () => {
         Designed for the future
       </h2>
 
-      <div>
+      <div className="desktop:flex">
         <DesignImage />
         <DesignText />
       </div>

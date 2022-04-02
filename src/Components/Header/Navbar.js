@@ -19,9 +19,11 @@ const Navbar = () => {
           <a href="/">Connect</a>
         </ul>
 
-        <div className="flex justify-end basis-2/4">
-          <button className="mr-8">Login</button>
-          <button>Sign Up</button>
+        <div className="flex items-center justify-end text-lg font-black basis-2/4">
+          <button className="mr-7">Login</button>
+          <button className="px-8 py-1 font-semibold bg-white rounded-full text-cta-mobilenav-lightred">
+            Sign Up
+          </button>
         </div>
       </div>
     </nav>

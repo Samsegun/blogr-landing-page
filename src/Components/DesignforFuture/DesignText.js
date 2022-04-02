@@ -1,6 +1,6 @@
 const DesignText = () => {
   return (
-    <div className="sm:w-small-screen sm:m-small-screen">
+    <div className="sm:w-small-screen sm:m-small-screen desktop:basis-full">
       <article>
         <h2 className="px-12 mb-4 text-3xl font-black text-headings">
           Introducing an extensible editor
