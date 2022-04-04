@@ -31,11 +31,16 @@ module.exports = {
         "mobile-bg": "url('./assets/bg-pattern-intro-mobile.svg')",
         "desktop-bg": "url('./assets/bg-pattern-intro-desktop.svg')",
         "circles-bg": "url('./assets/bg-pattern-circles.svg')",
+        "design-for-future": "url('./assets/illustration-editor-desktop.svg')",
+        "free-open": "url('./assets/illustration-laptop-desktop.svg')",
         "body-gradient": "linear-gradient(rgba(44, 45, 63, 0.9)100%)",
       },
       backgroundPosition: {
         "top-4": "left -21rem bottom -32rem",
-        StateofArt: "left -23rem bottom 14rem",
+        StateofArt: "left -21rem bottom 7rem",
+        "desktop-soa": "left -21rem bottom -6rem",
+        "design-ff": "left 2rem bottom 0rem",
+        "free-open": "right -1rem bottom 0rem;",
       },
       height: {
         "header-height": "35rem",

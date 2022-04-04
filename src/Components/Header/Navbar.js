@@ -1,5 +1,6 @@
 import logo from "../../assets/logo.svg";
 import hamburger from "../../assets/icon-hamburger.svg";
+import arrow from "../../assets/icon-arrow-light.svg";
 
 const Navbar = () => {
   return (
@@ -14,7 +15,10 @@ const Navbar = () => {
 
       <div className="hidden text-white desktop:w-full desktop:flex desktop:justify-between">
         <ul className="flex justify-evenly basis-2/4">
-          <a href="/">Product</a>
+          <a href="/" className="">
+            Product
+            <img src={arrow} alt="arrow down" />
+          </a>
           <a href="/">Company</a>
           <a href="/">Connect</a>
         </ul>

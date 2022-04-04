@@ -2,7 +2,7 @@ import phones from "../../assets/illustration-phones.svg";
 
 const StateofArtImage = () => {
   return (
-    <div className="max-h-[450px] absolute -top-44 w-full">
+    <div className="max-h-[450px] w-full">
       <img
         src={phones}
         alt="phones"

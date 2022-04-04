@@ -1,9 +1,9 @@
 const FooterLinks = () => {
   return (
-    <div className="mt-12">
-      <section className="mb-10">
+    <div className="mt-12 desktop:flex desktop:mt-0 desktop:basis-[70%] desktop:justify-evenly desktop:text-left">
+      <section className="mb-10 ">
         <h3 className="text-lg">Product</h3>
-        <ul className="flex flex-col mt-5 text-lg">
+        <ul className="flex flex-col mt-5 text-lg ">
           <a href="/" className="mb-2 text-footer-text">
             Overview
           </a>
