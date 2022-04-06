@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative flex items-center justify-between gap-6 px-5 pt-12 mx-auto pb-28 desktop:w-4/5 desktop:justify-start">
+    <nav className="relative z-0 flex items-center justify-between gap-6 px-5 pt-12 mx-auto pb-28 desktop:w-4/5 desktop:justify-start">
       {/* brand icon */}
       <div>
         <img src={logo} alt="blogger logo" />
@@ -33,7 +33,7 @@ const Navbar = () => {
       {/* close icon */}
       {showNav && (
         <div
-          className="relative z-20 animate-close-nav"
+          className="animate-close-nav hover:cursor-pointer desktop:hidden"
           onClick={mobileMenuHandler}
         >
           <img src={closeBtn} alt="close icon" />
@@ -47,19 +47,6 @@ const Navbar = () => {
           document.getElementById("mobile-nav")
         )}
 
-      {/* backdrop */}
-      {showNav &&
-        ReactDOM.createPortal(
-          <div
-            aria-label="hidden"
-            className="z-10 left-0 top-0
-           bg-backdrop fixed h-[100vh] w-[100vw] animate-backdrop"
-            onClick={mobileMenuHandler}
-          ></div>,
-          document.getElementById("backdrop")
-        )}
-
-      {/* desktop navigation */}
       <div className="hidden text-white desktop:w-full desktop:flex desktop:justify-between desktop:items-center">
         <ul className="flex justify-evenly basis-2/4">
           <a href="/" className="">
