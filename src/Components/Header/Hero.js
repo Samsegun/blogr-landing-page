@@ -12,10 +12,12 @@ const Hero = () => {
       font-ubuntu sm:max-w-[525px] 
       desktop:w-1/2 desktop:justify-evenly"
       >
-        <button className="p-3 font-extrabold bg-white rounded-full text-cta-mobilenav-lightred desktop:w-4/12">
+        <button
+          className="p-3 font-extrabold transition-all duration-300 bg-white rounded-full text-cta-mobilenav-lightred hover:bg-cta-text hover:text-white desktop:w-4/12"
+        >
           Start for Free
         </button>
-        <button className="w-1/2 p-3 font-semibold text-white border-2 border-white rounded-full desktop:w-4/12">
+        <button className="w-1/2 p-3 font-semibold text-white transition-all duration-300 border-2 border-white rounded-full hover:text-cta-text hover:bg-white desktop:w-4/12">
           Learn More
         </button>
       </div>
