@@ -28,10 +28,7 @@ const MobileNav = () => {
     rounded-lg text-xl font-semibold font-overpass text-body-copy
     animate-slide-in desktop:hidden"
     >
-      <nav
-        role="navigation"
-        className="w-4/5 mx-auto border-b-[1px] border-footer-text"
-      >
+      <nav className="w-4/5 mx-auto border-b-[1px] border-footer-text">
         <ul className="flex flex-col items-center">
           <li className="w-full text-center">
             Product

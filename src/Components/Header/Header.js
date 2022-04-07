@@ -5,7 +5,6 @@ import styles from "./Header.module.css";
 const Header = () => {
   return (
     <header
-      role="banner"
       className={
         "rounded-bl-header h-header-height desktop:bg-desktop-bg " +
         styles.header

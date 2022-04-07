@@ -6,7 +6,7 @@ import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <div className="relative z-0">
+    <div role="contentinfo" className="relative z-0">
       <Header />
       <DesignFuture />
       <StateofArt />
