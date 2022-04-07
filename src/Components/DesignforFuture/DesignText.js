@@ -3,10 +3,7 @@ const DesignText = () => {
     <div className="sm:w-small-screen sm:m-small-screen desktop:basis-full desktop:self-center desktop:text-left desktop:w-full">
       <div className="desktop:w-[80%] desktop:mx-auto">
         <article>
-          <h2
-            role="banner"
-            className="px-12 mb-4 text-3xl font-black text-headings desktop:px-0"
-          >
+          <h2 className="px-12 mb-4 text-3xl font-black text-headings desktop:px-0">
             Introducing an extensible editor
           </h2>
 

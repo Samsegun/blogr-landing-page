@@ -3,7 +3,7 @@ const StateofArtText = () => {
     <div className="h-full ">
       <article className="mx-auto text-center text-white font-overpass ms:w-4/5 sm:text-xl desktop:text-left desktop:mx-0 ">
         <h2
-          role="banner"
+          aria-label="banner"
           className="text-4xl font-semibold desktop:font-normal desktop:text-[2.8rem]"
         >
           State of the Art Infrastructure

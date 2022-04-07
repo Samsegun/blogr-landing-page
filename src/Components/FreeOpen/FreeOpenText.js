@@ -2,7 +2,10 @@ const FreeOpenText = () => {
   return (
     <div className="mt-7 font-overpass text-body-copy sm:w-small-screen sm:m-small-screen desktop:basis-full desktop:text-left desktop:w-4/5">
       <article>
-        <h2 role="banner" className="mb-5 text-2xl font-black text-headings">
+        <h2
+          aria-label="banner"
+          className="mb-5 text-2xl font-black text-headings"
+        >
           Free, open, simple
         </h2>
         <p className="px-8 font-bold desktop:px-0 desktop:w-4/5">
