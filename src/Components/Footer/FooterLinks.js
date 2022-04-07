@@ -4,54 +4,54 @@ const FooterLinks = () => {
       <section className="mb-10 ">
         <h3 className="text-lg">Product</h3>
         <ul className="flex flex-col mt-5 text-lg ">
-          <a href="/" className="mb-2 text-footer-text hover:underline">
+          <li className="mb-2 text-footer-text hover:underline hover:cursor-pointer">
             Overview
-          </a>
-          <a href="/" className="mb-2 text-footer-text hover:underline">
+          </li>
+          <li className="mb-2 text-footer-text hover:underline hover:cursor-pointer">
             Pricing
-          </a>
-          <a href="/" className="mb-2 text-footer-text hover:underline">
+          </li>
+          <li className="mb-2 text-footer-text hover:underline hover:cursor-pointer">
             Marketplace
-          </a>
-          <a href="/" className="mb-2 text-footer-text hover:underline">
+          </li>
+          <li className="mb-2 text-footer-text hover:underline hover:cursor-pointer">
             Features
-          </a>
-          <a href="/" className="mb-2 text-footer-text hover:underline">
+          </li>
+          <li className="mb-2 text-footer-text hover:underline hover:cursor-pointer">
             Integrations
-          </a>
+          </li>
         </ul>
       </section>
 
       <section className="mb-10">
         <h3 className="text-lg">Company</h3>
         <ul className="flex flex-col mt-5 text-lg">
-          <a href="/" className="mb-2 text-footer-text hover:underline">
+          <li className="mb-2 text-footer-text hover:underline hover:cursor-pointer">
             About
-          </a>
-          <a href="/" className="mb-2 text-footer-text hover:underline">
+          </li>
+          <li className="mb-2 text-footer-text hover:underline hover:cursor-pointer">
             Team
-          </a>
-          <a href="/" className="mb-2 text-footer-text hover:underline">
+          </li>
+          <li className="mb-2 text-footer-text hover:underline hover:cursor-pointer">
             Blog
-          </a>
-          <a href="/" className="mb-2 text-footer-text hover:underline">
+          </li>
+          <li className="mb-2 text-footer-text hover:underline hover:cursor-pointer">
             Careers
-          </a>
+          </li>
         </ul>
       </section>
 
       <section className="mb-10">
         <h3 className="text-lg">Connect</h3>
         <ul className="flex flex-col mt-5 text-lg">
-          <a href="/" className="mb-2 text-footer-text hover:underline">
+          <li className="mb-2 text-footer-text hover:underline hover:cursor-pointer">
             Contact
-          </a>
-          <a href="/" className="mb-2 text-footer-text hover:underline">
+          </li>
+          <li className="mb-2 text-footer-text hover:underline hover:cursor-pointer">
             Newsletter
-          </a>
-          <a href="/" className="mb-2 text-footer-text hover:underline">
+          </li>
+          <li className="mb-2 text-footer-text hover:underline hover:cursor-pointer">
             LinkedIn
-          </a>
+          </li>
         </ul>
       </section>
     </div>
