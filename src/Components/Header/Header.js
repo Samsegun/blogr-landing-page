@@ -10,8 +10,10 @@ const Header = () => {
         styles.header
       }
     >
-      <Navbar />
-      <Hero />
+      <div className="h-full max-w-[1580px] mx-auto">
+        <Navbar />
+        <Hero />
+      </div>
     </header>
   );
 };
