@@ -29,10 +29,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav
-      role="navigation"
-      className="relative z-0 flex items-center justify-between gap-6 px-5 pt-12 mx-auto pb-28 desktop:w-4/5 desktop:justify-start"
-    >
+    <nav className="relative z-0 flex items-center justify-between gap-6 px-5 pt-12 mx-auto pb-28 desktop:w-4/5 desktop:justify-start">
       {/* brand icon */}
       <div>
         <img src={logo} alt="blogger logo" />
